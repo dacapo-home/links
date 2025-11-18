@@ -123,8 +123,13 @@ p {
 margin: 0 0 15px; 
 }
 
+ul{
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
 /* main */
-.main{
+.main, .kleingedrucktes{
 background-color: #e8d87d;
 max-width: 100%;
 padding-bottom: 100px;
@@ -150,6 +155,10 @@ transition: all 0.15s ease-out 0s;
 box-shadow: 6px 6px 10px rgba(51,51,51,0.4);
 }
 
+.kleingedrucktes{
+  text-align: left;
+}
+
 .footer a{
   text-decoration: underline;
 }
@@ -157,7 +166,6 @@ box-shadow: 6px 6px 10px rgba(51,51,51,0.4);
 .footer p{
   margin: 50px 20px 20px 20px;
   border-radius: 20px 0 20px 20px;
-  font-style: italic;
   background-color: #e8d87d; 
   padding: 15px 0;
 }
